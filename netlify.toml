@@ -1,0 +1,8 @@
+# netlify.toml
+[build]
+  publish = "dist"
+  command = "vite build"
+
+[dev]
+  command = "vite"
+  targetPort = 5173
